@@ -21,11 +21,11 @@ body{
 .menu li{
     position: absolute;
     list-style: none;
-    left: 0;
-    transform-origin: 100px;
+    left: -50px;
+    transform-origin: 150px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(80px);
+    transform: rotate(0deg) translateX(120px);
 }
 .menu.active li{
     transform: rotate(calc(360deg / 8 * var(--i)));
@@ -34,8 +34,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background: #fff;
     border-radius: 50%;
     transform: rotate(calc(360deg / -8 * var(--i)));
